@@ -1,19 +1,33 @@
 
 <!DOCTYPE html>
-<html dir="rtl">
+<html >
 <head>
   <link href="https://fonts.googleapis.com/css2?family=Vazir:wght@400;700&display=swap" rel="stylesheet">
     <title>Snapp! Navbar</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body dir="rtl">
+<body dir="rtl" >
 
-  <nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="logo">
         <img src="https://web-cdn.snapp.ir/snapp-website/icons/snappTextLogo.svg" alt="Snapp! Logo">
     </div>
-    <ul>
-        <li><a href="#">سوپراپ اسنپ</a></li>
+    <ul class="">
+        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">سوپراپ اسنپ</a>
+        
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">درخواست تاکسی</a>
+            <a class="dropdown-item" href="#">پیک موتوری</a>
+            <a class="dropdown-item" href="#">سفارش آنلاین غذا</a>
+            <a class="dropdown-item" href="#">سوپرمارکت</a>
+            <a class="dropdown-item" href="#">بلیط هواپیما</a>
+            
+          </div>
+  
+        
+        </li>
         <li><a href="#">درباره اسنپ</a></li>
         <li><a href="#">بلاگ</a></li>
         <li><a href="#">پنل سازمانی</a></li>
@@ -28,22 +42,24 @@
 <section class="section">
   <div class="paragraph-container">
     <div class="container">
-      <h1>تجربه ی زندگی راحت تر، سریع تر و به صرفه تر با سوپراپلیکیشن اسنپ!</h1>
-      <p>از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر، رزرو هتل و ... را میتوانید با اسنپ انجام دهید.</p>   
-      <div class="input-group">
+      <h1 class="text-start">تجربه‌ی زندگی راحت‌تر، سریع‌تر و به‌صرفه‌تر با سوپراپلیکیشن اسنپ!</h1>
+      <p class="text-start">از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر، رزرو هتل و ... را میتوانید با اسنپ انجام دهید.</p>   
+      <div  class="input-group">
         <input type="text" placeholder="09XXXXXX6789">
         <button class="button-send">ارسال لینک</button>
-      </div>
-      <button class="button-two">ورود به وب اپلیکیشن اسنپ</button>
+      </div >
+      <button class="button-two text-start">ورود به وب اپلیکیشن اسنپ</button>
     </div>
   </div>
   <div class="image-container">
-    <img src="https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg" alt="Snapp introduction image">
+    <img class="w-100" src="https://web-cdn.snapp.ir/snapp-website/images/homepage/intro_desktop.jpg" alt="Snapp introduction image">
   </div>
 </section>
 <!-- ====================================================================== -->
 <!-- ====================================================================== -->
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
 

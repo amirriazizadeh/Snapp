@@ -16,6 +16,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: baseline;
 }
 
+.navbar{
+  height: 100px;
+}
+
 nav {
   display: flex;
   font-family: 'Vazir', sans-serif;
@@ -56,6 +60,7 @@ nav li a {
   justify-content: space-between;
   align-items: center;
   background-color: #21aa58;
+  
 }
 
 .image-container {
